@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <title>DOM Pig Game</title>
+    </head>
+    <body>
+        <div class="wrapper clearfix">
+            <div class="player-0 active">
+                <div class="player-name" id="name-0">Player 1</div>
+                <div class="player-score" id="score-0">30</div>
+                <div class="player-score-box">
+                    <div class="player-present-level">PRESENT</div>
+                    <div class="player-present-score" id="present-0">3</div>
+                </div>
+            </div>
+
+            <div class="player-1">
+                <div class="player-name" id="name-1">Player 2</div>
+                <div class="player-score" id="score-1">40</div>
+                <div class="player-score-box">
+                    <div class="player-present-level">PRESENT</div>
+                    <div class="player-present-score" id="present-1">30</div>
+                </div>
+            </div>
+
+            <button class="new"><i class="ion-ios-plus-outline"></i>New game</button>
+            <button class="roll"><i class="ion-ios-loop"></i>Roll dice</button>
+            <button class="hold"><i class="ion-ios-download-outline"></i>Hold</button>
+
+            <img src="dice-5.png" alt="Dice" class="dice">
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>
