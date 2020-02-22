@@ -27,7 +27,7 @@ document.querySelector('.hold').addEventListener('click', function(){
     if(gamePlaying){
         scores[activePlayer] += roundScore;
         document.querySelector('#score-' + activePlayer).textContent= scores[activePlayer];
-        if(scores[activePlayer]>=20){
+        if(scores[activePlayer]>=100){
         document.querySelector('#name-' + activePlayer).textContent= 'Winner!';
         document.querySelector('.dice').style.display='none';
         document.querySelector('.player-' + activePlayer).classList.add('winner');
